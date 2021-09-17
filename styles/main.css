@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(55, 63, 56, 0.7);
+}
+
+.calc {
+	width: 439px;
+	height: 490px;
+	padding: 40px 50px 21px 32px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.calc__border {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/calc.avif");
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+.calc__screen {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	border-radius: 60px;
+	padding: 24px;
+}
+
+.calc__input {
+	width: 100%;
+	height: 45px;
+	padding: 8px;
+	background-color: transparent;
+	border: none;
+	border-radius: 20px;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: right;
+}
+
+.calc__input_previous {
+	height: 20px;
+	font-size: 16px;
+	color: #ffffff88;
+}
+
+.calc__input_current {
+	border: 1px solid #ABABB1;
+}
+
+.calc__input_uncorrect {
+	color: #fdb3b375;
+}
+
+.calc__input:focus {
+	outline: none;
+	border: 1px solid #ABABB1;
+}
+
+.calc__buttons {
+	width: 100%;
+	height: 295px;
+	margin-top: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+	gap: 3px;
+}
+
+.calc__button {
+	width: 75px;
+	height: 56px;
+	border: none;
+	border-radius: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.calc__button:focus {
+	outline: none;
+}
+
+.calc__button_light {
+	background-color: #ABABB1;
+	color: #000000;
+}
+
+.calc__button_light:hover, .calc__button_light:focus {
+	background-color: #757579;
+}
+
+.calc__button_dark {
+	background-color: #3A3A3C;
+	color: #ffffff;
+}
+
+.calc__button_dark:hover, .calc__button_dark:focus {
+	background-color: #757575;
+}
+
+.calc__button_yellow {
+	background-color: #FF9500;
+	color: #ffffff;
+	font-size: 26px;
+}
+
+.calc__button_yellow:hover, .calc__button_yellow:focus {
+	background-color: #b66b03;
+}
+
+.calc__button_big {
+	width: 153px;
+}
+/*# sourceMappingURL=main.css.map */
